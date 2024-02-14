@@ -76,7 +76,7 @@ const Products = () => {
     <span>23% off in all products</span> <br />
     <a href="/">Shop Now</a>
 </div>
-<div>
+<div className='trendingProductsImg'>
 <img  src={require(".//img/image 1162.png")}  alt=""  />
     
 </div>
@@ -86,7 +86,7 @@ const Products = () => {
     <span>23% off in all products</span> <br />
     <a href="/">View Collection</a>
 </div>
-<div>
+<div className='trendingProductsImg'>
 <img  src={require(".//img/image 1161.png")}  alt=""  />
     
 </div>

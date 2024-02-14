@@ -91,7 +91,7 @@ export default function LatestProducts() {
                             </div>
                             <div className='productsPrice'>
                                 <span> $42.00</span>  &nbsp;
-                                <span className='nextPrice'>  $65,00</span>
+                                <span className='nextPrice'>  $65.00</span>
                             </div>
 
                         </div>

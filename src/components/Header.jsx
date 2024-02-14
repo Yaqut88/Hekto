@@ -1,5 +1,5 @@
 import './Header.scss'
-
+import { Link } from 'react-router-dom';
 
 const Header =()=>{
     return (
@@ -12,7 +12,7 @@ const Header =()=>{
 Trends in 2020</div>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
 in phasellus non in justo.</p>
-<button>Shop Now</button>
+<Link to="/shoplist"><button>Shop Now</button></Link>
             </div>
 
             
