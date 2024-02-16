@@ -1,7 +1,11 @@
 import './Discount.scss';
 import React from 'react';
+// import {AOS} from 'aos';
+import 'aos/dist/aos.css';
+
 
 const Discount = () => {
+    
   return (
     <div className='Discount'>
 <div className="title">
@@ -16,7 +20,7 @@ Discount Item
 </div>
 <div className="container">
     <div className="row">
-<div className="col-lg-6 discountItems">
+<div className="col-lg-6 discountItems" >
 <h3>20% Discount Of All Products</h3>
 <span className='redTitle'>Eams Sofa Compact</span> <br />
 <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu eget  <br />

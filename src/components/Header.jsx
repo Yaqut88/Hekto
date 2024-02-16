@@ -12,7 +12,7 @@ const Header =()=>{
 Trends in 2020</div>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
 in phasellus non in justo.</p>
-<Link to="/shoplist"><button>Shop Now</button></Link>
+<Link to="/shoppage"><button>Shop Now</button></Link>
             </div>
 
             

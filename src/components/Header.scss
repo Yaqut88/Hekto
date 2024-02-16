@@ -34,6 +34,13 @@
                     outline: none;
                     border-radius: 2px;
                 }
+                button:hover{
+                    transform: translate(40px);
+                    animation-timing-function: ease-in-out;
+                    transition-duration: 3s;
+    background-color:  #7E33E0;
+                    font-weight: 600;
+                }
             }
 .right{
     // padding: auto;

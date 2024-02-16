@@ -1,0 +1,57 @@
+.ShopPage{
+    .title{
+        p{
+            color: #151875;
+          font-family: 'Josefin-sans sans-serif';
+            font-weight: 700;
+            font-size: 22px;
+            font-weight: 25px;
+    
+        }
+        span{
+         color: #8A8FB9;
+         font-size: 12px;
+        //  line-height: 14px;
+         font-family: 'Lato';
+
+        }
+    }
+
+   .container{
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        .shopSection{
+            text-align: center;
+          .img{
+width: auto;
+height: 300px;
+background-color: #F6F7FB;
+padding: 50px;
+text-align: center;
+          }  
+          .shopSectionTitle{
+
+            .name{
+                color: #151875;
+                font-family: 'Josefin-sans sans-serif';
+                font-weight: 700;
+            }
+           
+            .productsPrice{
+                span{
+                    color: #151875;
+                    font-weight: 600;
+                }
+                .nextPrice{
+                    color: #FB2448;
+                    text-decoration:line-through;
+                    font-weight: 600;
+                
+                }
+            }
+          }
+        }
+    }
+   }
+}

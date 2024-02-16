@@ -22,7 +22,7 @@ const NavbarTop=()=> {
           <Link className="nav-link active" aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/">Pages</Link>
+          <Link className="nav-link active" aria-current="page" to="/about">Pages</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/productdetails">Products</Link>
