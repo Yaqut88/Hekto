@@ -34,7 +34,6 @@
         div{
             img{
                 padding: 8px;
-
                 margin-left: 15px;
             }
         }
@@ -125,14 +124,25 @@
 
 .productsDetailsEnd{
     margin-top: 80px;
+    
     .title{
 color: #101750;
 font-size: 36px;
 font-weight: 700;
 font-family: 'Josefin-sans sans-serif';
+margin-bottom: 30px;
     }
     .row{
+        display: flex;
+        flex-wrap: wrap;
 .otherProducts{
+    .productImage{
+        margin: 10px;
+      img{
+        width: 240px;
+        margin: 10px;
+      }
+    }
    .productName{
     display: flex;
     .productTitle{
@@ -148,6 +158,12 @@ font-weight: 600;
         
     }
    } 
+   .productPrice{
+    color: #151875;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 700;
+   }
 }
     }
 }
