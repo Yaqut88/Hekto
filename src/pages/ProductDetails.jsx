@@ -128,12 +128,123 @@ const ProductDetails = () => {
 </div>
 
 
-<div className="container">
+<div className="container productsDetailsEnd">
+  <div className="title">Related Products</div>
   <div className="row">
-    <div className="col-lg-3 col-md-6 col-sm-12"></div>
-    <div className="col-lg-3 col-md-6 col-sm-12"></div>
-    <div className="col-lg-3 col-md-6 col-sm-12"></div>
-    <div className="col-lg-3 col-md-6 col-sm-12"></div>
+    <div className="col-lg-3 col-md-6 col-sm-12 otherProducts">
+      <div className='productImage'>
+      <img src={require("../components/img/Rectangle 128.png")} alt="" />
+        
+         </div>
+      <div className='productName'>
+        <div className='productTitle'>
+      Mens Fashion Wear
+        </div>
+        <div className="starItems">
+                                <ul>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star.png")} alt="" />
+                                    <li></li>
+                                </ul>
+                            </div>
+      </div>
+      <div className='productPrice'>
+        $43.00
+      </div>
+    </div>
+    <div className="col-lg-3 col-md-6 col-sm-12 otherProducts">
+      <div className='productImage'>
+      <img src={require("../components/img/Rectangle 133.png")} alt="" />
+        
+         </div>
+      <div className='productName'>
+        <div className='productTitle'>
+      Mens Fashion Wear
+        </div>
+        <div className="starItems">
+                                <ul>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star.png")} alt="" />
+                                    <li></li>
+                                </ul>
+                            </div>
+      </div>
+      <div className='productPrice'>
+        $67.00
+      </div>
+    </div>
+
+    <div className="col-lg-3 col-md-6 col-sm-12 otherProducts">
+      <div className='productImage'>
+      <img src={require("../components/img/Rectangle 130.png")} alt="" />
+        
+         </div>
+      <div className='productName'>
+        <div className='productTitle'>
+      Mens Fashion Wear
+        </div>
+        <div className="starItems">
+                                <ul>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star.png")} alt="" />
+                                    <li></li>
+                                </ul>
+                            </div>
+      </div>
+      <div className='productPrice'>
+        $67.00
+      </div>
+    </div>
+
+    <div className="col-lg-3 col-md-6 col-sm-12 otherProducts">
+      <div className='productImage'>
+      <img src={require("../components/img/Rectangle 131.png")} alt="" />
+        
+         </div>
+      <div className='productName'>
+        <div className='productTitle'>
+      Mens Fashion Wear
+        </div>
+        <div className="starItems">
+                                <ul>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star1.png")} alt="" />
+                                    <li></li>
+                                    <img src={require("../components/img/star.png")} alt="" />
+                                    <li></li>
+                                </ul>
+                            </div>
+      </div>
+      <div className='productPrice'>
+$51.00
+      </div>
+    </div>
 
 
 
