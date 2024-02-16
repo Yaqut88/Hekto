@@ -41,7 +41,7 @@ const Shoplist = () => {
                     <span>About 9,620 results (0.62 seconds)</span>
                 </div>
                 <div className="row">
-                    <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-12 shopSectionLeft">
                         <img src={require("../components/img/Rectangle 32.png")} alt="" />
 
                     </div>
@@ -84,7 +84,7 @@ const Shoplist = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-12 shopSectionLeft">
                         <img src={require("../components/img/Rectangle 32 (1).png")} alt="" />
 
                     </div>
@@ -127,7 +127,7 @@ const Shoplist = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-12 shopSectionLeft">
                         <img src={require("../components/img/Rectangle 32 (2).png")} alt="" />
 
                     </div>
@@ -170,7 +170,7 @@ const Shoplist = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-12 shopSectionLeft">
                         <img src={require("../components/img/Rectangle 32 (3).png")} alt="" />
 
                     </div>
@@ -213,7 +213,7 @@ const Shoplist = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-12 shopSectionLeft">
                         <img src={require("../components/img/Rectangle 32 (4).png")} alt="" />
 
                     </div>
@@ -256,7 +256,7 @@ const Shoplist = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-12 shopSectionLeft">
                         <img src={require("../components/img/Rectangle 32 (5).png")} alt="" />
 
                     </div>
@@ -299,7 +299,7 @@ const Shoplist = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div className="col-lg-4 col-md-12 col-sm-12 col-12 shopSectionLeft">
                         <img src={require("../components/img/Rectangle 32 (6).png")} alt="" />
 
                     </div>

@@ -23,6 +23,7 @@
                     justify-content: center;
                     padding:  40px;
                     border-radius: 130px;
+                    
 
                 }
                 .card-section{
@@ -51,16 +52,40 @@
     }
   }
   @media (min-width: 300px) and (max-width: 500px) {
-    
+   .introSlider{
+    .img{
+      img{
+        width: 200px;
+      }
+    }
+   }
   }
    
   @media (min-width: 501px) and (max-width: 700px) {
-    
+    .introSlider{
+      .img{
+        img{
+         max-width: 45px;
+        }
+      }
+     }
   }
   @media (min-width: 701px) and (max-width: 900px) {
-    
+    .introSlider{
+      .img{
+        img{
+          width: 100px;
+        }
+      }
+     }
   }
    
-  @media (min-width: 901px) and (max-width: 1100px) {
-    
+  @media (min-width: 901px) and (max-width: 1150px) {
+    .introSlider{
+      .img{
+        img{
+          width: 120px;
+        }
+      }
+     }
   }

@@ -80,4 +80,15 @@
   color: #FFFFFF;
   background-color: #FB2E86;
   font-size: 18px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .contactSection .row .contact {
+    width: auto;
+  }
+}
+@media (max-width: 300px) {
+  .contactSection .row .contact {
+    width: 200px;
+  }
 }/*# sourceMappingURL=Contact.css.map */

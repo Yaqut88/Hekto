@@ -14,15 +14,22 @@
   margin-top: 40px;
 }
 .Products .container .row .cardSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 25px;
 }
 .Products .container .row .img {
-  padding: 40px;
+  width: auto;
+  max-width: 100%;
   background-color: #F5F6F8;
   text-align: center;
 }
 .Products .container .row .img img {
   background-color: #F5F6F8;
+  width: auto;
+  max-width: 100%;
 }
 .Products .container .row .sofaName {
   text-align: center;
@@ -69,8 +76,10 @@
   text-align: center;
   font-family: "Josefin-sans sans-serif";
 }
-.Products .container .trendingProducts .firstSection img {
-  margin-left: 100px;
+.Products .container .trendingProducts .firstSection .trendingProductsImg {
+  display: flex;
+  flex-direction: end;
+  justify-content: flex-end;
 }
 .Products .container .secondSection {
   background-color: #EEEFFB;
@@ -93,12 +102,10 @@
   text-align: center;
   font-family: "Josefin-sans sans-serif";
 }
-.Products .container .secondSection img {
-  margin-top: 80px;
-  margin-left: 40px;
-}
-.Products .container .thirdSection {
-  margin-left: 70px;
+.Products .container .secondSection .trendingProductsImg {
+  display: flex;
+  flex-direction: end;
+  justify-content: flex-end;
 }
 .Products .container .thirdSection .d-flex {
   margin-bottom: 25px;
@@ -126,8 +133,33 @@
   .Products .container .trendingProducts .firstSection img {
     margin-left: 0px;
   }
+  .Products .container .trendingProducts .secondSection {
+    margin-left: 0px;
+  }
+  .Products .container .trendingProducts .secondSection img {
+    margin: 0px;
+  }
+  .Products .container .trendingProducts .thirdSection {
+    margin-left: 0px;
+  }
 }
 @media (min-width: 300px) and (max-width: 500px) {
+  .Products .container .trendingProducts .firstSection img {
+    margin-left: 0px;
+    width: 150px;
+  }
+  .Products .container .trendingProducts .secondSection {
+    margin-left: 0px;
+  }
+  .Products .container .trendingProducts .secondSection img {
+    margin-left: 0px;
+    width: 150px;
+  }
+  .Products .container .trendingProducts .thirdSection {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 501px) and (max-width: 700px) {
   .Products .container .trendingProducts .firstSection img {
     margin-left: 0px;
   }
@@ -135,7 +167,22 @@
     margin-left: 0px;
   }
   .Products .container .trendingProducts .secondSection img {
+    margin: 0px;
+  }
+  .Products .container .trendingProducts .thirdSection {
     margin-left: 0px;
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .Products .container .trendingProducts .firstSection img {
+    margin-left: 0px;
+  }
+  .Products .container .trendingProducts .secondSection {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+  .Products .container .trendingProducts .secondSection img {
+    margin: 0px;
   }
   .Products .container .trendingProducts .thirdSection {
     margin-left: 0px;

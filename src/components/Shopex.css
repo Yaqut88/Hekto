@@ -10,21 +10,25 @@
   line-height: 49px;
   margin-bottom: 30px;
 }
-.Shopex .shopex {
+.Shopex .container .row {
+  display: flex;
+  justify-content: center;
+}
+.Shopex .container .row .shopex {
   text-align: center;
-  padding: 50px;
+  padding: 40px 30px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   width: 280px;
   margin: 20px;
 }
-.Shopex .shopex .cardTime {
+.Shopex .container .row .shopex .cardTime {
   font-size: 25px;
   font-family: "Josefin-sans sans-serif";
   color: #1A0B5B;
   margin-top: 30px;
   font-weight: 600;
 }
-.Shopex .shopex .cardText {
+.Shopex .container .row .shopex .cardText {
   color: rgba(26, 11, 91, 0.3019607843);
   font-family: "Lato";
   font-size: 16px;

@@ -41,4 +41,25 @@
   font-family: "Josefin-sans sans-serif";
   font-size: 16px;
   line-height: 19px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  .introSlider .img img {
+    width: 200px;
+  }
+}
+@media (min-width: 501px) and (max-width: 700px) {
+  .introSlider .img img {
+    max-width: 45px;
+  }
+}
+@media (min-width: 701px) and (max-width: 900px) {
+  .introSlider .img img {
+    width: 100px;
+  }
+}
+@media (min-width: 901px) and (max-width: 1150px) {
+  .introSlider .img img {
+    width: 120px;
+  }
 }/*# sourceMappingURL=Categories.css.map */

@@ -43,10 +43,12 @@
                 }
             }
 .right{
+    display: flex;
+    justify-content: center;
     // padding: auto;
     .sofa{
-// width: 529px;
-// height: 529px;
+width: 529px;
+height: 529px;
 width: auto;
 max-width: 100%;
     }
@@ -127,6 +129,7 @@ max-width: 100%;
                 }
                 .right{
                     padding: 20px;
+                  
                     .sofa{
                     width: 400px;
                     height: 400px;

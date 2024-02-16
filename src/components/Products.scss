@@ -23,11 +23,16 @@
 padding: 25px;
             }
             .img {
+                width: auto;
+                max-width: 100%;
                 // padding: 40px;
                 background-color: #F5F6F8;
                 text-align: center;
                 img {
                     background-color: #F5F6F8;
+                    width: auto;
+                    max-width: 100%;
+                   
                 }
             }
 

@@ -34,9 +34,22 @@
   outline: none;
   border-radius: 2px;
 }
+.Header .container .row .left button:hover {
+  transform: translate(40px);
+  animation-timing-function: ease-in-out;
+  transition-duration: 3s;
+  background-color: #7E33E0;
+  font-weight: 600;
+}
+.Header .container .row .right {
+  display: flex;
+  justify-content: center;
+}
 .Header .container .row .right .sofa {
   width: 529px;
   height: 529px;
+  width: auto;
+  max-width: 100%;
 }
 .Header .container .absoluteImg {
   position: absolute;
