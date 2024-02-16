@@ -128,6 +128,18 @@ const ProductDetails = () => {
 </div>
 
 
+<div className="container">
+  <div className="row">
+    <div className="col-lg-3 col-md-6 col-sm-12"></div>
+    <div className="col-lg-3 col-md-6 col-sm-12"></div>
+    <div className="col-lg-3 col-md-6 col-sm-12"></div>
+    <div className="col-lg-3 col-md-6 col-sm-12"></div>
+
+
+
+  </div>
+</div>
+
         <Image/>
         <Footer/>
         <FooterBottom/>
