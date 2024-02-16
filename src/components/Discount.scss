@@ -77,49 +77,15 @@ background-color:  #7E33E0;
     font-weight: 600;
 }
                 }
+                .discountItems2{
+                    img{
+                        width: auto;
+                        max-width: 100%;
+                    }
+                }
                 
             }
         }
 }
 
 
-@media  (max-width:300px) {
-    
-}
-@media (min-width: 300px) and (max-width: 500px) {
-    .discountItems2{
-        img{
-            width: 170px;
-        }
-    }
-}
- 
-@media (min-width: 501px) and (max-width: 700px) {
-    .discountItems2{
-        img{
-            width: 250px;
-        }
-    }
-}
-@media (min-width: 701px) and (max-width: 900px) {
-    .discountItems2{
-        img{
-            width: 300px;
-        }
-    }
-}
- 
-@media (min-width: 901px) and (max-width: 1100px) {
-    .discountItems2{
-        img{
-            width: 400px;
-        }
-    }
-}
-@media (max-width: 300px){
-    .discountItems2{
-        img{
-            width: 180px;
-        }
-    }
-  }

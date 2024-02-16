@@ -38,15 +38,17 @@
                     transform: translate(40px);
                     animation-timing-function: ease-in-out;
                     transition-duration: 3s;
-    background-color:  #7E33E0;
+                    background-color:  #7E33E0;
                     font-weight: 600;
                 }
             }
 .right{
     // padding: auto;
     .sofa{
-width: 529px;
-height: 529px;
+// width: 529px;
+// height: 529px;
+width: auto;
+max-width: 100%;
     }
 }
         }
