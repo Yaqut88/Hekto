@@ -2,6 +2,9 @@
   font-weight: 500;
   margin-left: 10%;
 }
+.Navbar .container {
+  margin-top: auto;
+}
 .Navbar .Links {
   display: flex;
   justify-content: space-between;
